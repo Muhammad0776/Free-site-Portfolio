@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css';
 import Navbar from "./components/Navbar/Navbar"
-// import Header from "./components/Header/Header"
-// import Services from "./components/Services/Services"
+import Header from "./components/Header/Header"
+import Services from "./components/Services/Services"
 // import Portfolio from "./components/Portfolio/Portfolio"
 // import Clients from "./components/Clients/Clients"
 // import Testimonials from "./components/Testiomonials/Testimonials"
@@ -15,13 +15,13 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Header />
+      <Header />
       <Services />
-      <Portfolio />
-      <Clients />
-      <Testimonials />
-      <Blog />
-      <Contact /> */}
+      {/* <Portfolio /> */}
+      {/* <Clients /> */}
+      {/* <Testimonials /> */}
+      {/* <Blog /> */}
+      {/* <Contact /> */}
     </div>
   );
 }
