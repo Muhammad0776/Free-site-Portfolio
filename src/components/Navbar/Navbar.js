@@ -1,26 +1,46 @@
 import { FaBars } from "react-icons/fa";
-import React from 'react'
-import "./Navbar.css"
+import React, { useState } from 'react';
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    NavbarText
+} from 'reactstrap';
 
-const Navbar = () => {
+const Example = (props) => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
+
     return (
         <div>
-            <div className="container py-3 d-flex justify-content-between">
-                <div>
-                    <img src="/img/logo.png" className="me-5" alt="" />
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Works</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <button className="btn"><FaBars /></button>
-                </div>
-            </div>
+            <Navbar className="container py-3 bg-white d-flex justify-content-between" color="light" light expand="md">
+                <NavbarBrand href="/"><img src="/img/logo.png" className="me-5" alt="" /></NavbarBrand>
+                <NavbarToggler onClick={toggle} />
+                <Collapse isOpen={isOpen} navbar>
+                    <Nav className="mr-auto" navbar>
+                        <NavItem>
+                            <NavLink href="">About</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="">Services</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="">Works</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="">Blog</NavLink>
+                        </NavItem>
+                    </Nav>
+                </Collapse>
+                <NavbarText className="d-lg-block d-none"><button className="btn"><FaBars /></button></NavbarText>
+            </Navbar>
         </div>
-    )
+    );
 }
 
-export default Navbar;
+export default Example;
