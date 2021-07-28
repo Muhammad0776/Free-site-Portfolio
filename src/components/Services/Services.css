@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+
+.line {
+    width: 50px;
+    height: 2px;
+    left: 165px;
+    top: 802px;
+    background: #8643DC;
+}
+span {
+    font-family: Red Hat Display;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 18px;
+    color: #8643DC;
+}
+
+h2 {
+    font-family: Red Hat Display;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 48px;
+    font-size: 36px;
+    color: #25202F;
+}
