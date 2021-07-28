@@ -26,7 +26,7 @@ h1 {
 }
 
 .back-color {
-    /* background-image: url(%PUBLIC_URL%/img/bg.png); */
+    /* background-image: url("file:///img/Group%201(3).png"); */
     background-size: cover;
     background-position: center;
 }
