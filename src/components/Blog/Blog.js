@@ -2,7 +2,7 @@ import React from 'react'
 import "./Blog.css"
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    CardSubtitle,
 } from 'reactstrap';
 
 const Blog = () => {
