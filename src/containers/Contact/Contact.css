@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+
+a {
+    color: #8643DC;
+}
+
+.icon:hover {
+    color: blue;
+}
