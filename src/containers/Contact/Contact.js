@@ -11,7 +11,7 @@ const Contact = () => {
                 <div className="line mt-2"></div>
                 <div className="d-flex justify-content-between">
                     <h2 className="mt-4">Let me know if you want to talk <br /> about a potential collaboration. <br /> I'm available for freelance work.</h2>
-                    <a href="#" className="mt-3">infoname@mail.com</a>
+                    <a href="#" className="mt-3 d-lg-block d-none">infoname@mail.com</a>
                 </div>
                 <input type="text" className="border-0 mb-4 form-control border-bottom" placeholder="What’s your name?" />
                 <input type="text" className="border-0 mb-4 form-control border-bottom" placeholder="Your email" />

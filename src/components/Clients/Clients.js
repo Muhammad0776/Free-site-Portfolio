@@ -11,27 +11,27 @@ const Clients = () => {
                 <div className="row">
 
                     <div className="col-12 col-sm-6 col-md-4 col-lg-2 me-3">
-                        <div>
+                        <div className="text-center">
                             <a href="#"><img src="/img/slack.png" alt="" /></a>
                         </div>
                     </div>
                     <div className="col-12 col-sm-6 col-md-4 col-lg-2 me-3">
-                        <div>
+                        <div className="text-center">
                             <a href="#"><img src="/img/medium.png" alt="" /></a>
                         </div>
                     </div>
                     <div className="col-12 col-sm-6 col-md-4 col-lg-2 me-3">
-                        <div>
+                        <div className="text-center">
                             <a href="#"><img src="/img/microsoft.png" alt="" /></a>
                         </div>
                     </div>
                     <div className="col-12 col-sm-6 col-md-4 col-lg-2 me-3">
-                        <div>
+                        <div className="text-center">
                             <a href="#"><img src="/img/zeplin.png" alt="" /></a>
                         </div>
                     </div>
                     <div className="col-12 col-sm-6 col-md-4 col-lg-2 me-3">
-                        <div>
+                        <div className="text-center">
                             <a href="#"><img src="/img/shopify.png" alt="" /></a>
                         </div>
                     </div>
