@@ -18,7 +18,7 @@ import "./Services.css";
 
 const Services = () => {
     return (
-        <div>
+        <div id="service">
             <div className="container py-5">
                 <span>Services</span>
                 <div className="line mt-2"></div>
